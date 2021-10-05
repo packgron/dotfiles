@@ -1,0 +1,13 @@
+[helpers]
+
+[default]
+depends = []
+
+[default.files]
+nvim = "~/.config/nvim/init.vim"
+"nvim.d" = "~/.config/nvim/conf.d"
+sway = "~/.config/sway/config"
+sysd-ssh-agent = "~/.config/systemd/user/ssh-agent.service"
+zsh = "~/.zshrc"
+
+[default.variables]
